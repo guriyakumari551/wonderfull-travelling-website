@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title> this is our attractive  travelling website</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+    body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    html
+    {
+        font-size:62.5%;
+    }
+    ul li{
+        list-style:none;
+
+    }
+    a
+    {
+        font-size:1.6rem;
+        text-decoration:none;
+    }
+    p,li{
+        font-size:1.6rem;
+        margin-bottom:0.5em;
+        letter-spacing: 0.15em;
+    }
+    h1,h2,h3
+    {
+margin:bottom 0.5em;
+font-weight:500;
+letter-spacing:0.15em;
+
+    }
+    .lg-heading
+    {
+        font-size:3.5rem;
+    }
+    md-heading{
+        font-size: 2.2rem;
+    }
+    .text-springgreen
+    {
+        color:springgreen;
+    }
+    .text-pink
+    {
+        color:blue;
+    }
+    .text-black
+    {
+        color:#333;
+    }
+    .text-red
+    {
+        color:red;
+    }
+    .text-gray
+    {
+color:gray;
+    }
+    .btn
+    {
+        display-inline:block;
+        padding:0.5em 1.5em;
+        font-weight: 500;
+        margin:0.5em;
+        text-transform: uppercase;
+    }
+    .btn-primary
+    {
+      background-color:yellow;
+      border-radius: 10em;
+    
+     
+    }
+    .btn-primary:hover{
+        background-color: #ddd;
+    }
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   .header
+    {
+    
+    position: relative;
+        height:100vh;
+       
+       
+     background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))   , url('../IMG/travel-image3.jpg');   
+     background-position: center;
+     background-size: cover;
+
+    }
+   /* .header .logo,
+   header .navbar a{
+        color:white;
+    } */
+   
+.navbar{
+    
+    padding:1rem;
+}
+.header .navbar .logo{
+    float:left;
+   
+    font-size:4.5rem;
+}
+.header .navbar .naviteams
+{
+    float:right;margin-top: 1rem;
+}
+.navbar::after{
+content: '';
+display: block;
+clear: both;
+}
+.header .navbar .naviteam{
+    display :inline-block;
+    padding:1rem;
+    text-transform: uppercase;
+}
+.navbar a:link,
+.navbar a:visited{
+    color:yellow;
+}
+.navbar a:hover
+{
+    border-bottom:1px solid white;
+    padding-buttom:0.3rem;
+}
+.header-content h1
+{
+text-transform: uppercase;
+    font-family: 700;
+}
+.header-content p{
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+.header-content{
+   
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.showcase
+{
+    background-color:#ddd ;
+    padding:10rem;
+
+}
+.row
+{
+    height:350px;
+  
+    background-color: #fff;
+    box-shadow:5px 5px 20px 0px rgba(170, 170, 170, 0.445);
+    
+}
+.row1
+{
+    margin-bottom: 10rem;
+}
+.row1 .img-box, .row2 .text-box
+{
+float:left;
+width:50%;
+}
+
+.row2 .img-box, .row1 .text-box
+{
+float:right;
+width:50%;
+}
+.row .img-box
+{
+   
+    height:100%;
+}
+.row .text-box
+{
+   
+    padding:10px;
+    background-color:white ;
+}
+
+.row .img-box IMG
+{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.btn-secondary
+{
+    border:1.2px solid red;
+    border-radius:2.5em;
+    color:red;
+    background-color:white ;
+}
+.btn-secondary :hover{
+    background-color:lightgoldenrodyellow;
+}
+
+
+
+    </style>
+</head>
+<body>
+  <header class="header">
+      <nav class="navbar">
+       <h1 class="logo lg.heading text-springgreen">WT</h1>
+       <ul class="naviteams">
+            <li class="naviteam"><a href="./index.html">Home</a></li>
+            <li class="naviteam"><a href="./about.html">About</a></li>
+            <li class="naviteam"><a href="./contact.html">Contact</a></li>   
+       </ul>  
+      </nav>
+      <div class="header-content">
+          <h1 class="lg-heading text-red">world has attractive environment</h1>
+          <p class="md-heading text-pink ">the aim of life should be all about travelling,and enjoying with friends:))</p>
+       <a href="#"class="btn btn-primary text-red md-heading">Explore places</a>
+        </div>
+
+  </header>
+  <section class="showcase">
+    <div class="container"> 
+     <div class="row row1">
+         <div class="img-box">
+             <img src="../IMG/travel-image1.jpg">
+         </div>
+         <div class="text-box">
+             <h2 class="lg-heading">UTTARPRADESH,AGRA</h2>
+             <P class="text-gray">Agra is best known for the Taj Mahal (17th century). A complex mausoleum, the Taj Mahal is often considered to be the world’s best example of Mughal architecture. The Mughal emperor Shah Jahān built it for his favourite wife, Mumtāz Maḥal, in the mid-17th century. Agra Fort (16th century), called the Red Fort for its massive red sandstone walls, was built by the emperor Akbar; it contains the PearlThe Jāmiʿ Masjid, or Great Mosque, and the elegant tomb ofthe Taj Mahal. To the northwest, at Sikandra, is the tomb of</P>
+             <a class="btn btn-secondary">more</a>
+            </div>
+       </div>
+       <div class="row row2">
+        <div class="img-box">
+            <img src="../IMG/manish.jpg">
+        </div>
+        <div class="text-box">
+            <h2 class="lg-heading">BIHAR,NEPAL</h2>
+            <p class="text-gray"> Asian country located between China and India. Besides that, we have posted here in this post, more than this facts. You’ll get real facts about country Nepal. We all know that the Lord Buddha was born in Nepal. The highest peak of the world, Mount Everest is located in the Himalayas of Nepal. Besides these renown’s facts, we have here written only the facts related to geography of Nepal. it’s not only 10 facts about Nepal. We are not with only 10 geographical facts about Nepal.Nepal is divided into three physical or geographical features. </p>
+        <a href="" class="btn btn-secondary">more</a>
+        </div>
+        
+           
+        </div>
+             
+              
+            
+         
+ </div>
+</section>
+  
+</body>
+</html>
